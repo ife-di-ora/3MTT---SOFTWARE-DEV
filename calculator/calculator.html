@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="display" id="resultDisplay"></div>
+      <div class="display" id="inputDisplay"></div>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        7
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        8
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        9
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="operator(this.innerText)"
+      >
+        x
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        4
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        5
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        6
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="operator(this.innerText)"
+      >
+        -
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        1
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        2
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        3
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="operator(this.innerText)"
+      >
+        +
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="operator(this.innerText)"
+      >
+        /
+      </button>
+      <button
+        type="button"
+        class="calculator-button"
+        onclick="display(this.innerText)"
+      >
+        0
+      </button>
+      <button type="button" class="calculator-button">.</button>
+      <button
+        type="button"
+        class="calculator-button"
+        id="result"
+        onclick="calculate()"
+      >
+        =
+      </button>
+      <button class="display" style="text-align: center" onclick="clearAll()">
+        Clear
+      </button>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
